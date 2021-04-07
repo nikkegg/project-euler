@@ -41,14 +41,14 @@ const abundantList = () => {
 const checkIfSumOfAbundants = (target, listOfNums) => {
   let leftPointer = 0;
   let rightPointer = listOfNums.length - 1;
-  const abundant = true;
+  const sumOfAbundants = true;
   while (leftPointer <= rightPointer) {
     const result = listOfNums[leftPointer] + listOfNums[rightPointer];
-    if (result === target) return !abundant;
+    if (result === target) return !sumOfAbundants;
     if (result < target) leftPointer++;
     if (result > target) rightPointer--;
   }
-  return abundant
+  return sumOfAbundants
 }
 
 const sumOfNonAbundantNums = () => {
