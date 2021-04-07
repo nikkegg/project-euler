@@ -16,7 +16,7 @@
 
 const isAbundant = (number) => {
   let divisorSum = 0;
-  const AbundantNum = false;
+  const abundantNum = false;
   const upperBound = Math.ceil(Math.sqrt(number))
   if (upperBound ** 2 === number) divisorSum += upperBound
 
@@ -25,9 +25,9 @@ const isAbundant = (number) => {
     if (remainderIsZero) {
       if (i !== secondDivisor) divisorSum += (i + secondDivisor);
     }
-    if (divisorSum > number) return !AbundantNum;
+    if (divisorSum > number) return !abundantNum;
   }
-  return AbundantNum;
+  return abundantNum;
 }
 
 const abundantList = () => {
