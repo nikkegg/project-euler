@@ -19,7 +19,8 @@ defmodule Problem1 do
     end
   end
 
-  def sum_multiples_functional(bound, div1, div2) do
+  def sum_multiples_functional(bound, div1, div2)
+      when bound |> is_integer and div1 |> is_number and div2 |> is_number do
     list_of_nums = 0..bound |> Enum.to_list()
 
     callback = fn el, acc ->
