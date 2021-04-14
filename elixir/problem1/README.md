@@ -1,6 +1,6 @@
 # Problem1
 
-**TODO: Add description**
+Solution to Project Euler 1 problem in both recursive and functional form. To run tests run mix test
 
 ## Installation
 
