@@ -1,6 +1,6 @@
 # Problem1
 
-Solution to Project Euler 1 problem in both recursive and functional form. To run tests run mix test
+Solution to Project Euler 1 problem in both recursive and functional form. To run tests run ```mix test```. To disable output of passed tests remove ```trace: true``` in ```problem1_test.exs``` file.
 
 ## Installation
 
